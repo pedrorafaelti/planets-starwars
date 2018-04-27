@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: desafio
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: PedroRafael
+Implementation-Vendor-Id: br.com.b2w
+Build-Jdk: 1.8.0_25
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/starwars
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,9 @@
+br/com/b2w/desafio/dto/ResultSwapiDto.class
+br/com/b2w/desafio/ws/SwapiWS.class
+br/com/b2w/desafio/dto/PlanetSwapiDto.class
+br/com/b2w/desafio/models/Planet.class
+br/com/b2w/desafio/ws/SwapiWS$1.class
+br/com/b2w/desafio/repositories/PlanetRepository.class
+br/com/b2w/desafio/DesafioApplication.class
+br/com/b2w/desafio/services/PlanetService.class
+br/com/b2w/desafio/controllers/PlanetController.class
