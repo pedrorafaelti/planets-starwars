@@ -7,6 +7,21 @@ Necessita: <br>
  
  Baixe o projeto <br>
  Via terminal acesse a pasta raiz do projeto "/desafio" <br>
- Baixe as e dependencias e gere o .jar executando: "./mvnw clean package" <br>
- Para iniciar a API execulte: "java -jar target/starwars-0.1.0.jar"
+ Execulte: "./mvnw spring-boot:run"<br>
  
+ <br>
+ OU
+ <br>
+ 
+ Baixe as e dependencias e gere o .jar executando: "./mvnw clean package" <br>
+ Para iniciar a API: "java -jar target/starwars-0.1.0.jar"
+ 
+=================================================================================
+
+URL's: <br><br>
+
+- Adicionar um planeta (com nome, clima e terreno)http://localhost:8080/starwars/planet/create <br>
+- Listar planetas: http://localhost:8080/starwars/planet/findAll <br>
+- Buscar por ID: http://localhost:8080/starwars/planet/find?id=5ae245acaa26a041b76c2b64 <br>
+- Buscar por nome: http://localhost:8080/starwars/planet/findByName?name=Marte <br>
+- Remover planeta: http://localhost:8080/starwars/planet/delete?id=5ae243fdaa26a041b1387068 <br>
