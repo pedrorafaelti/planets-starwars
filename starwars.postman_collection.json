@@ -1,0 +1,162 @@
+{
+	"id": "092d309f-c1d6-f9e1-9eae-2c0d335e0f98",
+	"name": "starwars",
+	"description": "",
+	"order": [
+		"59977cec-4fa0-a5ea-1612-e3bde4516fdf",
+		"56f9b77e-5d75-f952-03c4-fda7499fbd7a",
+		"a578ff3c-a9ed-0873-751b-08bc8c5e1b7b",
+		"75595c3c-16bb-c3c6-2369-cb087c02dc01",
+		"f99fa327-2c79-130e-9114-870a8b2db492"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1524690138843,
+	"owner": "1560216",
+	"public": false,
+	"requests": [
+		{
+			"id": "56f9b77e-5d75-f952-03c4-fda7499fbd7a",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/planet/findByName?name=Terra",
+			"queryParams": [
+				{
+					"key": "name",
+					"value": "Terra",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "092d309f-c1d6-f9e1-9eae-2c0d335e0f98",
+			"data": null,
+			"dataMode": "params",
+			"name": "findByName",
+			"description": "Busca de planeta pelo nome",
+			"descriptionFormat": "html",
+			"time": 1524690420971,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "59977cec-4fa0-a5ea-1612-e3bde4516fdf",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/planet/findAll",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "092d309f-c1d6-f9e1-9eae-2c0d335e0f98",
+			"data": null,
+			"dataMode": "params",
+			"name": "findAll",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1524690227377,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "75595c3c-16bb-c3c6-2369-cb087c02dc01",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/planet/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1524691420040,
+			"name": "create",
+			"description": "",
+			"collectionId": "092d309f-c1d6-f9e1-9eae-2c0d335e0f98",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\" : \"OREGAE6\",\n\t\"ground\" : \"ccccc\",\n\t\"climate\" : \"dddd\"\n}"
+		},
+		{
+			"id": "a578ff3c-a9ed-0873-751b-08bc8c5e1b7b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/planet/delete?id=xcxcc",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "xcxcc",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "092d309f-c1d6-f9e1-9eae-2c0d335e0f98",
+			"data": null,
+			"dataMode": "params",
+			"name": "delete",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1524691067425,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f99fa327-2c79-130e-9114-870a8b2db492",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/planet/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1524691320759,
+			"name": "create planet existed",
+			"description": "",
+			"collectionId": "092d309f-c1d6-f9e1-9eae-2c0d335e0f98",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\" : \"Terra\",\n\t\"ground\" : \"ccccc\",\n\t\"climate\" : \"dddd\"\n}"
+		}
+	]
+}
