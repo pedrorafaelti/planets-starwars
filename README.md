@@ -26,4 +26,6 @@ URL's: <br><br>
 - Buscar por nome: http://localhost:8080/starwars/planet/findByName?name=Marte <br>
 - Remover planeta: http://localhost:8080/starwars/planet/delete?id=5ae243fdaa26a041b1387068 <br>
 
+<b>OBS: Os serviços são case sensitive.</b>
+
 Segue no repository o script "starwars.postman_collection.json" gerado para teste via Postman.
